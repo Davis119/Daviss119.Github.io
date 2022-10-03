@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <a href="2109106119_Posttest3Web_Davis.html">Home</a>
+    <h1 align="center" id="header1">Jadwal Harian</h1>
+    <link rel="stylesheet" href="style6.css"
+</head>
+
+<style>
+    div {
+       margin-top: 1px;
+       margin-left: 1px;
+       border: 1px solid #E6E1EF;
+       background-color: #E6E1EF;
+       padding-top: 50px;
+       padding-right: 100px;
+       padding-bottom: 10px;
+       padding-left: 100px;}
+</style>
+
+<div>
+    <body>
+         
+    
+    <table align="center">
+        <tr><td><h1>Senin</h1></td>
+            <th><img src="Lookism.PNG"width="211" height="211" alt="foto Lookism"></th>
+            <th><img src="Weak Hero.PNG"width="211" height="211" alt="foto Weak Hero"></th>
+            <th><img src="Loser Life.PNG"width="211" height="211" alt="foto Loser Life"></th>
+         </tr>
+    
+         <tr><td><h1>Selasa</h1></td>
+            <th><img src="Daddy Goes to School.PNG"width="211" height="211" alt="foto Daddy Goes to School"></th>
+            <th><img src="Study Group.PNG"width="211" height="211" alt="foto Study Group"></th>
+            <th><img src="Hive.PNG"width="211" height="211" alt="foto Hive"></th>
+         </tr>
+    
+         <tr><td><h1>Rabu</h1></td>
+            <th><img src="Mistake.PNG"width="211" height="211" alt="foto Mistake"></th>
+            <th><img src="WEE!!!.PNG"width="211" height="211" alt="foto WEE!!!"></th>
+            <th><img src="One Day in Seoul.PNG"width="211" height="211" alt="foto One Day in Seoul"></th>
+         </tr>
+    
+         <tr><td><h1>Kamis</h1></td>
+            <th><img src="Dead Life.PNG"width="211" height="211" alt="foto Dead Life"></th>
+            <th><img src="Dead Days.PNG"width="211" height="211" alt="foto Dead Days"></th>
+            <th><img src="The Predator.PNG"width="211" height="211" alt="foto The Predator"></th>
+         </tr>
+
+         <tr><td><h1>Jum'at</h1></td>
+            <th><img src="Dedes.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+            <th><img src="Dragon King's Chef.png"width="211" height="211" alt="Logo Traveloka"></th>
+            <th><img src="The Boxer.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+         </tr>
+
+         <tr><td><h1>Sabtu</h1></td>
+            <th><img src="School Attack.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+            <th><img src="10 Tahun Setelah Pandemi.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+         </tr>
+
+         <tr><td><h1>Minggu</h1></td>
+            <th><img src="Terlalu Tampan.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+            <th><img src="3cm Hunter.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+            <th><img src="To Not Die.PNG"width="211" height="211" alt="Logo Traveloka"></th>
+         </tr>
+    </table>
+    
+    <ul><li><button onclick="dark()" class="button button1">Darkmode</button></li>
+        <li><button onclick="yellow()" class="button2 button3">Yellow mode</button></li>
+        <li><button onclick="gray()" class="button4 button5">Gray mode</button></li>
+        <script>
+          var button = document.getElementsByClassName("button button1 button2 button3 button4 button5");
+          button.addEventListener("click", dark);
+          button.addEventListener("click", yellow);
+          button.addEventListener("click", gray);
+
+          function dark() {
+              var dark = document.body;
+              dark.classList.toggle("dark-mode");
+              alert ("Klik Oke! untuk masuk Darkmode dan Klik Oke! lagi untuk kembali seperti semula");
+          }
+
+          function yellow() {
+              var yellow = document.body;
+              yellow.classList.toggle("yellow-mode");
+              alert ("Klik Oke! untuk masuk Yellow Mode dan Klik Oke! lagi untuk kembali seperti semula");
+          }
+
+          function gray() {
+              var gray = document.body;
+              gray.classList.toggle("gray-mode");
+              alert ("Klik Oke! untuk masuk Gray mode dan Klik Oke! lagi untuk kembali seperti semula");
+          }
+        </script>
+
+    </ul>
+        
+    
+    </body>
+</div>
+</html>

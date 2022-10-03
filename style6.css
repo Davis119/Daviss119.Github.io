@@ -1,0 +1,142 @@
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+
+li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 15px;  
+}
+
+li a {
+    color: #434232;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(7, 228, 92);
+  }
+
+li a{
+    font-size: 25px;
+}
+
+#header1 {
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    background-color: rgb(20, 206, 60);
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+#link1 {
+    color: rgb(14, 177, 22);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+body {
+    background-color: white;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .yellow-mode {
+    background-color: #a5a525;
+    color: white;
+  }
+
+  .gray-mode {
+    background-color: #4A5B69;
+    color: white;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  
+  .button1 {
+    background-color: #685b16; 
+    color: black; 
+    border: 2px solid #685b16;
+  }
+  
+  .button1:hover {
+    background-color: #0c001b;
+    color: rgb(255, 255, 255);
+  }
+
+  .button2 {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  
+  .button3 {
+    background-color: #F9F871; 
+    color: white; 
+    border: 2px solid #F9F871;
+  }
+
+  .button3:hover {
+    background-color: #dfdf61;
+    color: rgb(255, 255, 255);
+  }
+
+  .button4 {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+
+  .button5 {
+    background-color: #343944; 
+    color: white; 
+    border: 2px solid #343944;
+  }
+
+  .button5:hover {
+    background-color: #1C1A20;
+    color: rgb(255, 255, 255);
+  }
+
+  div {
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid #1c1a20;
+    background-color: #1c1a20;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;}
